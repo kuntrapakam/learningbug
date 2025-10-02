@@ -1,5 +1,5 @@
 resource "null_resource" "example" {
-  count = 10
+  count = 7
   provisioner "local-exec" {
     command = "echo Test ${count.index}"
   }
