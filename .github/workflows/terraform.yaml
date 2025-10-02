@@ -1,0 +1,13 @@
+name: terraform workflow
+on:
+  push:
+    branches:
+      - main
+      - develop
+permissions: write-all
+jobs:
+  terraform workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
