@@ -6,7 +6,7 @@ on:
       - develop
 permissions: write-all
 jobs:
-  terraform workflow:
+  terraformworkflow:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
